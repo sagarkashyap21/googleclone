@@ -11,8 +11,8 @@ body{
 }
 
 #Wrong:hover{
-background-color:rgb(186, 235, 235);
-border-radius: 10px;
+/* background-color:rgb(186, 235, 235); */
+/* border-radius: 10px; */
 
 }
 .menuUl{
