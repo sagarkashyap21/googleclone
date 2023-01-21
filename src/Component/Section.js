@@ -33,7 +33,7 @@ export default function Section() {
 
             <div  style={{ display:"flex",justifyContent:"center" }}>
                 <ul  style={{ border: "1px solid lightgray",boxShadow:"2px 2px lightgray",height:"40px",borderRadius:"20px",listStyle:"none",display:"flex",alignItems:"center" }}>
-                    <li><i style={{color:"gray",marginRight:"10px"}} class="fa fa-solid fa-magnifying-glass"></i></li>
+                    <li><i onClick={google} style={{color:"gray",marginRight:"10px"}} class="fa fa-solid fa-magnifying-glass"></i></li>
                     <li><input style={{width:"500px",border:"0 solid",outline:"none"}} type="text" placeholder="Search Google or type a URL"  onChange={Input}  onKeyDown={Search}/></li>
                     <li><i style={{marginRight:"30px",marginLeft:"10px"}} class="fa fa-solid fa-microphone"></i></li>
                 </ul>
