@@ -10,7 +10,7 @@ export default function Menu() {
         }
     return (
         <div id="menu" className="menu" style={{ border: "",width:"370px",position:"absolute",top:"70px",right:"-40px" }}>
-            <div id="Wrong" onClick={removeIcons} style={{border:"",width:"100px",marginLeft:"120px",display:"flex",justifyContent:"center"}}><i  style={{fontSize:"30px",color:"gray"}} class="fa fa-regular fa-circle-xmark"></i></div>
+            <div id="Wrong" onClick={removeIcons} style={{border:"",width:"100px",marginLeft:"127px",display:"flex",justifyContent:"center"}}><i  style={{fontSize:"30px",color:"gray"}} class="fa fa-regular fa-circle-xmark"></i></div>
             <ul className="menuUl">
      <a  style={{textDecoration:"none",color:"black"}}>  <li><img src="https://cdn-icons-png.flaticon.com/512/61/61205.png"  alt="" />Account</li></a>         
                <a href="https://mail.google.com/" style={{textDecoration:"none",color:"black"}}> <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="" />Gmail</li></a>
